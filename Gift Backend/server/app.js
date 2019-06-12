@@ -10,9 +10,7 @@ const app = ODCServer(express());
 
 require('dotenv').config();
 const port = process.env.PORT || 3030;
-const host = process.env.HOST || "127.0.0.1";
 app.set('port', port);
-app.set('host', host);
 
 app.config = require('./applications/config/default');
 
