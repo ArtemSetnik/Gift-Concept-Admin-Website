@@ -172,7 +172,7 @@ const router = new Router({
           name: 'todo',
           component: () => import('./views/apps/todo/Todo.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -180,7 +180,7 @@ const router = new Router({
           name: 'chat',
           component: () => import('./views/apps/chat/Chat.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -188,7 +188,7 @@ const router = new Router({
           name: 'email',
           component: () => import('./views/apps/email/Email.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -196,7 +196,7 @@ const router = new Router({
           name: 'calendar',
           component: () => import('./views/apps/Calendar.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -210,7 +210,7 @@ const router = new Router({
               { title: 'Shop', active: true },
             ],
             pageTitle: 'Shop',
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -224,7 +224,7 @@ const router = new Router({
               { title: 'Wish List', active: true },
             ],
             pageTitle: 'Wish List',
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -238,7 +238,7 @@ const router = new Router({
               { title: 'Checkout', active: true },
             ],
             pageTitle: 'Checkout',
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         // =============================================================================
@@ -255,7 +255,7 @@ const router = new Router({
               { title: 'List View', active: true },
             ],
             pageTitle: 'List View',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -269,7 +269,7 @@ const router = new Router({
               { title: 'Thumb View', active: true },
             ],
             pageTitle: 'Thumb View',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -283,7 +283,7 @@ const router = new Router({
               { title: 'Vuesax', active: true },
             ],
             pageTitle: 'Grid',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -297,7 +297,7 @@ const router = new Router({
               { title: 'Tailwind', active: true },
             ],
             pageTitle: 'Tailwind Grid',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -310,7 +310,7 @@ const router = new Router({
               { title: 'Colors', active: true },
             ],
             pageTitle: 'Colors',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -324,7 +324,7 @@ const router = new Router({
               { title: 'Basic Cards', active: true },
             ],
             pageTitle: 'Basic Cards',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -338,7 +338,7 @@ const router = new Router({
               { title: 'Statistics Cards', active: true },
             ],
             pageTitle: 'Statistics Card',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -352,7 +352,7 @@ const router = new Router({
               { title: 'Analytics Card', active: true },
             ],
             pageTitle: 'Analytics Card',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -366,7 +366,7 @@ const router = new Router({
               { title: 'Card Actions', active: true },
             ],
             pageTitle: 'Card Actions',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -379,7 +379,7 @@ const router = new Router({
               { title: 'Table', active: true },
             ],
             pageTitle: 'Table',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
 
@@ -397,7 +397,7 @@ const router = new Router({
               { title: 'Alert', active: true },
             ],
             pageTitle: 'Alert',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -411,7 +411,7 @@ const router = new Router({
               { title: 'Avatar', active: true },
             ],
             pageTitle: 'Avatar',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -425,7 +425,7 @@ const router = new Router({
               { title: 'Breadcrumb', active: true },
             ],
             pageTitle: 'Breadcrumb',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -439,7 +439,7 @@ const router = new Router({
               { title: 'Button', active: true },
             ],
             pageTitle: 'Button',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -453,7 +453,7 @@ const router = new Router({
               { title: 'Chip', active: true },
             ],
             pageTitle: 'Chip',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -467,7 +467,7 @@ const router = new Router({
               { title: 'Collapse', active: true },
             ],
             pageTitle: 'Collapse',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -481,7 +481,7 @@ const router = new Router({
               { title: 'Dialogs', active: true },
             ],
             pageTitle: 'Dialogs',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -495,7 +495,7 @@ const router = new Router({
               { title: 'Divider', active: true },
             ],
             pageTitle: 'Divider',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -509,7 +509,7 @@ const router = new Router({
               { title: 'Dropdown', active: true },
             ],
             pageTitle: 'Dropdown',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -523,7 +523,7 @@ const router = new Router({
               { title: 'List', active: true },
             ],
             pageTitle: 'List',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -537,7 +537,7 @@ const router = new Router({
               { title: 'Loading', active: true },
             ],
             pageTitle: 'Loading',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -551,7 +551,7 @@ const router = new Router({
               { title: 'Navbar', active: true },
             ],
             pageTitle: 'Navbar',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -565,7 +565,7 @@ const router = new Router({
               { title: 'Notifications', active: true },
             ],
             pageTitle: 'Notifications',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -579,7 +579,7 @@ const router = new Router({
               { title: 'Pagination', active: true },
             ],
             pageTitle: 'Pagination',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -593,7 +593,7 @@ const router = new Router({
               { title: 'Popup', active: true },
             ],
             pageTitle: 'Popup',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -607,7 +607,7 @@ const router = new Router({
               { title: 'Progress', active: true },
             ],
             pageTitle: 'Progress',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -621,7 +621,7 @@ const router = new Router({
               { title: 'Sidebar', active: true },
             ],
             pageTitle: 'Sidebar',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -635,7 +635,7 @@ const router = new Router({
               { title: 'Slider', active: true },
             ],
             pageTitle: 'Slider',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -649,7 +649,7 @@ const router = new Router({
               { title: 'Tabs', active: true },
             ],
             pageTitle: 'Tabs',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -663,7 +663,7 @@ const router = new Router({
               { title: 'Tooltip', active: true },
             ],
             pageTitle: 'Tooltip',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -677,7 +677,7 @@ const router = new Router({
               { title: 'Upload', active: true },
             ],
             pageTitle: 'Upload',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
 
@@ -699,7 +699,7 @@ const router = new Router({
               { title: 'Select', active: true },
             ],
             pageTitle: 'Select',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -713,7 +713,7 @@ const router = new Router({
               { title: 'Switch', active: true },
             ],
             pageTitle: 'Switch',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -727,7 +727,7 @@ const router = new Router({
               { title: 'Checkbox', active: true },
             ],
             pageTitle: 'Checkbox',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -741,7 +741,7 @@ const router = new Router({
               { title: 'Radio', active: true },
             ],
             pageTitle: 'Radio',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -755,7 +755,7 @@ const router = new Router({
               { title: 'Input', active: true },
             ],
             pageTitle: 'Input',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -769,7 +769,7 @@ const router = new Router({
               { title: 'Number Input', active: true },
             ],
             pageTitle: 'Number Input',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -783,7 +783,7 @@ const router = new Router({
               { title: 'Textarea', active: true },
             ],
             pageTitle: 'Textarea',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         // -------------------------------------------------------------------------------------------------------------------------------------------
@@ -798,7 +798,7 @@ const router = new Router({
               { title: 'Form Layouts', active: true },
             ],
             pageTitle: 'Form Layouts',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -812,7 +812,7 @@ const router = new Router({
               { title: 'Form Wizard', active: true },
             ],
             pageTitle: 'Form Wizard',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -826,7 +826,7 @@ const router = new Router({
               { title: 'Form Validation', active: true },
             ],
             pageTitle: 'Form Validation',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
 
@@ -844,7 +844,7 @@ const router = new Router({
               { title: 'Profile', active: true },
             ],
             pageTitle: 'Profile',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -858,7 +858,7 @@ const router = new Router({
               { title: 'FAQ', active: true },
             ],
             pageTitle: 'FAQ',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -872,7 +872,7 @@ const router = new Router({
               { title: 'KnowledgeBase', active: true },
             ],
             pageTitle: 'KnowledgeBase',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -886,7 +886,7 @@ const router = new Router({
               { title: 'KnowledgeBase', url: '/pages/knowledge-base' },
               { title: 'Category', active: true },
             ],
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -901,7 +901,7 @@ const router = new Router({
               { title: 'Category', url: '/pages/knowledge-base/category' },
               { title: 'Question', active: true },
             ],
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -915,7 +915,7 @@ const router = new Router({
               { title: 'Search', active: true },
             ],
             pageTitle: 'Search',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -929,7 +929,7 @@ const router = new Router({
               { title: 'Invoice', active: true },
             ],
             pageTitle: 'Invoice',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
 
@@ -947,7 +947,7 @@ const router = new Router({
               { title: 'Apex Charts', active: true },
             ],
             pageTitle: 'Apex Charts',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -961,7 +961,7 @@ const router = new Router({
               { title: 'chartjs', active: true },
             ],
             pageTitle: 'chartjs',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -975,7 +975,7 @@ const router = new Router({
               { title: 'echarts', active: true },
             ],
             pageTitle: 'echarts',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -989,7 +989,7 @@ const router = new Router({
               { title: 'Google Map', active: true },
             ],
             pageTitle: 'Google Map',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
 
@@ -1009,7 +1009,7 @@ const router = new Router({
               { title: 'Select', active: true },
             ],
             pageTitle: 'Select',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1023,7 +1023,7 @@ const router = new Router({
               { title: 'Quill Editor', active: true },
             ],
             pageTitle: 'Quill Editor',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1037,7 +1037,7 @@ const router = new Router({
               { title: 'Drag & Drop', active: true },
             ],
             pageTitle: 'Drag & Drop',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1051,7 +1051,7 @@ const router = new Router({
               { title: 'Datepicker', active: true },
             ],
             pageTitle: 'Datepicker',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1066,7 +1066,7 @@ const router = new Router({
               { title: 'Editor View', active: true },
             ],
             pageTitle: 'Editor View',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1095,7 +1095,7 @@ const router = new Router({
               { title: 'I18n', active: true },
             ],
             pageTitle: 'I18n',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1109,7 +1109,7 @@ const router = new Router({
               { title: 'Carousel', active: true },
             ],
             pageTitle: 'Carousel',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1123,7 +1123,7 @@ const router = new Router({
               { title: 'Clipboard', active: true },
             ],
             pageTitle: 'Clipboard',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
         {
@@ -1137,7 +1137,7 @@ const router = new Router({
               { title: 'Context Menu', active: true },
             ],
             pageTitle: 'Context Menu',
-            rule: 'editor'
+            rule: 'admin'
           },
         },
       ],
@@ -1213,7 +1213,7 @@ const router = new Router({
           name: 'authCallback',
           component: () => import('@/views/Callback.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -1229,7 +1229,7 @@ const router = new Router({
           name: 'pageRegister',
           component: () => import('@/views/pages/Register.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'admin'
           }
         },
         {
@@ -1293,7 +1293,7 @@ const router = new Router({
           name: 'pageMaintenance',
           component: () => import('@/views/pages/Maintenance.vue'),
           meta: {
-            rule: 'editor'
+            rule: 'admin'
           }
         },
       ]

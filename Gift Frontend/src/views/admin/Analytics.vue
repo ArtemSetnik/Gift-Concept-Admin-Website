@@ -196,7 +196,7 @@
 
     <div class="vx-row">
       <!-- LINE CHART -->
-      <div class="vx-col w-full mb-base">
+      <div class="vx-col w-full 1g:w-1/2 md:w-1/2 mb-base">
         <vx-card title="Revenue">
           <template slot="actions">
             <feather-icon icon="SettingsIcon" svgClasses="w-6 h-6 text-grey"></feather-icon>
@@ -223,6 +223,16 @@
               :series="analyticsData.revenueComparisonLine.series"
             />
           </div>
+        </vx-card>
+      </div>
+      <div class="vx-col w-full lg:w-1/2 md:w-1/2 mb-base">
+        <vx-card title="Invitations">
+          <vue-apex-charts
+            type="pie"
+            height="330"
+            :options="invitationData.chartOptions"
+            :series="invitationData.series"
+          ></vue-apex-charts>
         </vx-card>
       </div>
     </div>
@@ -420,7 +430,25 @@ export default {
           startDate: "14:58 26/07/2018",
           estDelDate: "28/07/2018"
         }
-      ]
+      ],
+      invitationData: {
+        series: [44, 55, 13, 43],
+        chartOptions: {
+            labels: ['Twitter', 'Facebook', 'Instagram', 'Pinterest'],
+            colors: ['#7367F0', '#28C76F', '#EA5455', '#FF9F43', '#1E1E1E'],
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
+        }
+      }
     };
   },
   components: {

@@ -14,7 +14,7 @@ module.exports = function (Auth) {
                 })
         }
         async checkActivated(user) {
-            if(user.activated == 'pending') return this.error("Pending Activation", "");
+            if(user.activated == 'pending') return this.error("Pending Activation", "Please wait until administrator accept your request.");
             if(user.activated == 'disallow') return this.error("Activation disallow", "You are the disallowed user.");
             if(user.activated == 'allow') return Promise.resolve(true);
             return this.error("Unknown activation", "You are not valid user");

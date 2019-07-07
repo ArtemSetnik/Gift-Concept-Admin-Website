@@ -16,8 +16,8 @@
                 <!-- IMG COL -->
                 <div class="vx-col sm:w-1/4 w-full item-img-container bg-white flex items-center justify-center">
                     <img
-                        :src="item.image"
-                        :alt="item.name"
+                        :src="require(`@/assets/images/licenses/${item.license}`)"
+                        :alt="item.username"
                         class="grid-view-img p-4">
                 </div>
 
@@ -25,8 +25,8 @@
                 <div class="vx-col sm:w-1/2">
                     <div class="p-4 pt-6">
                         <slot name="item-meta">
-                            <h6 class="item-name font-semibold mb-1">{{ item.name }}</h6>
-                            <p class="text-sm mb-4 cursor-pointer">By <span class="text-primary font-semibold">{{ item.brand }}</span></p>
+                            <h6 class="item-name font-semibold mb-1">{{ item.city }}</h6>
+                            <p class="text-sm mb-4 cursor-pointer">By <span class="text-primary font-semibold">{{ item.branch }}</span></p>
                             <p class="item-description text-sm">{{ item.description }}</p>
                         </slot>
                     </div>
@@ -37,16 +37,16 @@
 
                     <div class="p-4 flex flex-col w-full border border-solid border-grey-light border-r-0 border-t-0 border-b-0">
 
-                        <div class="bg-primary flex self-end text-white py-1 px-2 rounded">
+                        <!-- <div class="bg-primary flex self-end text-white py-1 px-2 rounded">
                             <span class="text-sm mr-2">{{ item.rating }}</span>
                             <feather-icon icon="StarIcon" svgClasses="h-4 w-4" />
-                        </div>
+                        </div> -->
 
                         <div class="my-6">
-                            <h5 class="font-bold text-center">${{ item.price }}</h5>
+                            <h5 class="font-bold text-center">{{ item.country }}</h5>
                             <span class="text-grey flex items-start justify-center mt-1" v-if="item.free_shipping">
                                 <feather-icon icon="ShoppingCartIcon" svgClasses="w-4 h-4" />
-                                <span class="text-sm ml-2">Free Shipping</span>
+                                <span class="text-sm ml-2">Seller</span>
                             </span>
                         </div>
 
